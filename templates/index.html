@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shorten link</title>
+</head>
+
+<body>
+    <form method="POST">
+        Your original link: <input type="text" name="origin" placeholder="https://google.com" id="origin">
+        <br>
+        <br>
+        Your custom link name (Optional): <input type="text" name="custom" placeholder="Google page" id="custom">
+        <br>
+        <br>
+
+        <button id="gen">Generator new link</button>
+    </form>
+    <br>
+    <p>{{shorten_link}}</p>
+</body>
+
+</html>
